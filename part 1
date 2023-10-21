@@ -1,0 +1,43 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\NOte book\web dev\git_it> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   phone.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\NOte book\web dev\git_it> git diff
+diff --git a/phone.txt b/phone.txt
+index cd222a4..ba97110 100644
+--- a/phone.txt
++++ b/phone.txt
+@@ -1 +1,4 @@
+-phone
+\ No newline at end of file
++phone
++
++touchscreen
++scratchless-gorilla glass
+\ No newline at end of file
+PS D:\NOte book\web dev\git_it> git add .
+PS D:\NOte book\web dev\git_it> git commit -m 'add touchscreen,scratchless to phone'
+[master a15454e] add touchscreen,scratchless to phone
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+PS D:\NOte book\web dev\git_it> git log
+commit a15454ece549c9633874f38da33a479888a8baa9 (HEAD -> master)
+Author: Gaurav kumar <gauravkriem@gmail.com>
+Date:   Sat Oct 21 13:03:50 2023 +0530
+
+    add touchscreen,scratchless to phone
+
+commit 01ed5f66f318cd8363f3d94a589d6f1cd20cf746
+Author: Gaurav kumar <gauravkriem@gmail.com>
+Date:   Fri Oct 20 17:21:34 2023 +0530
+
+    create phone
+PS D:\NOte book\web dev\git_it>
